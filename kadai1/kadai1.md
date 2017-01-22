@@ -25,6 +25,7 @@
 以下にIMG2を表示した結果を示す．
 
 ![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai1/kadai1-2.png?raw=true)
+
 図2 1/2サンプリング画像
 
 　若干だが画像が荒くなったのが見て取れる．
@@ -41,15 +42,19 @@
 　以下にそれぞれの結果を示す．
 
 ![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai1/kadai1-3.png?raw=true)
+
 図3 1/4サンプリング画像
 
 ![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai1/kadai1-4.png?raw=true)
+
 図4 1/8サンプリング画像
 
 ![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai1/kadai1-5.png?raw=true)
+
 図5 1/16サンプリング画像
 
 ![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai1/kadai1-6.png?raw=true)
+
 図6 1/322サンプリング画像
 
 　このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪が発生していく．　
