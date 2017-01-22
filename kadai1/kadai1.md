@@ -10,6 +10,7 @@
 	//ここまでコード//
 
 ![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai1/kadai1-1.png?raw=true)
+
 図1 原画像
 
 　原画像を1/2サンプリングしたものを再現するには，原画像を1/2倍に縮小し，2倍にすることで再現できる．
