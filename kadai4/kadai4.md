@@ -4,7 +4,8 @@
 
 　原画像として以下のようなグレースケール画像を使用する．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai4/kadai4-1.png?raw=true)
+
 図1　原画像
 
 　この画像は以下のようなコードで再現できる．
@@ -17,7 +18,8 @@
 
 　この画像の濃度ヒストグラムを以下に示す．濃度ヒストグラムは，画像にある画素の濃度別の分布を表す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai4/kadai4-2.png?raw=true)
+
 図2　原画像の濃度ヒストグラム
 
 　濃度ヒストグラムから，この原画像は暗めの画素が多いことがわかる．
@@ -38,10 +40,12 @@
 ここで256を指定してやらなければ，64の濃度ヒストグラムで均一化してしまうため，原画像との比較のため指定している．
 　以下に均一化を行った画像と濃度ヒストグラムを以下に示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai4/kadai4-3.png?raw=true)
+
 図3　均一化を行った画像
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai4/kadai4-4.png?raw=true)
+
 図4　均一化を行った画像の濃度ヒストグラム
 
 　原画像より全体的に明るくなり，ヒストグラムも明るい画素が増加したのが見て取れる．

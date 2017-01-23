@@ -4,7 +4,8 @@
 
 　原画像として以下のようなグレースケール画像を使用する．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai2/kadai2-1.png?raw=true)
+
 図1　原画像
 
 　この画像は以下のようなコードで再現できる．
@@ -25,7 +26,9 @@
 
 　このコードではIMGに127より上の色のピクセルのみを1として代入し，表示している．これにより，127以下と128以上の2種類の部分が現れる．以下に表示された画像を示す．
 
-!
+
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai2/kadai2-2.png?raw=true)
+
 図2　2階調画像
 
 　このように白と黒の2種類で表される画像が得られる．
@@ -41,7 +44,8 @@
 
 　IMG0，IMG1，IMG2にそれぞれ64以上，128以上，192以上の色のピクセルを1として代入し，それらを全て足すことで4階調を再現している．以下に表示された画像を示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai2/kadai2-3.png?raw=true)
+
 図3　4階調画像
 
 　4つの色によって原画像が表される．
@@ -61,7 +65,8 @@
 
 　以下に表示された画像を示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai2/kadai2-4.png?raw=true)
+
 図4　8階調画像
 
 　2階調画像と比べるとだいぶ原画像に近づいていることがわかる．

@@ -4,7 +4,8 @@
 
 　原画像として以下のようなグレースケール画像を使用する．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai5/kadai5-1.png?raw=true)
+
 図1　原画像
 
 　この画像は以下のようなコードで再現できる．
@@ -47,6 +48,7 @@
 これらの比が以前のmax_valの値よりも大きければ更新し，閾値となるiの値をmax_thresに代入する．これらの操作をヒストグラムの数分繰り返し閾値を求める．
 　以下に表示された画像を示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai5/kadai5-2.png?raw=true)
+
 図2　判別分析法による二値化画像
 

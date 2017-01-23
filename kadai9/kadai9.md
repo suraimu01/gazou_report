@@ -4,7 +4,8 @@
 
 　原画像として以下のようなグレースケール画像を使用する．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai9/kadai9-1.png?raw=true)
+
 図1　原画像
 
 　この画像は以下のようなコードで再現できる．
@@ -24,7 +25,8 @@
 
 　ノイズを添付した画像が以下である．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai9/kadai9-2.png?raw=true)
+
 図2　ノイズを添付した画像
 
 　この画像に対し，フィルタをかけてノイズ除去を行う．
@@ -35,7 +37,8 @@
 	imagesc(IMG); colormap(gray); colorbar; axis image;
 	//ここまでコード//
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai9/kadai9-3.png?raw=true)
+
 図3　平滑化フィルタをかけた画像
 
 　ノイズが減っていることが見て取れる．
@@ -46,8 +49,9 @@
 	imagesc(IMG); colormap(gray); colorbar; axis image;
 	//ここまでコード//
 
-!
-図3　メディアンフィルタをかけた画像
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai9/kadai9-4.png?raw=true)
+
+図4　メディアンフィルタをかけた画像
 
 　こちらもノイズが減っている．二つを比べると平滑化フィルタよりメディアンフィルタのほうがノイズの名残が少なく見える．
 このことからメディアンフィルタのほうが優れているといえる．

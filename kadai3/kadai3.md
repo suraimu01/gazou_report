@@ -4,7 +4,9 @@
 
 　原画像として以下のようなグレースケール画像を使用する．
 
-!
+
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai3/kadai3-1.png?raw=true)
+
 図1　原画像
 
 　この画像は以下のようなコードで再現できる．
@@ -18,7 +20,8 @@
 　原画像の横にカラーバーを出しており，0～255の輝度が表示されている．
 　閾値を64とし，輝度値が64以上のピクセルを1，その他を0とした場合の画像を以下に示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai3/kadai3-2.png?raw=true)
+
 図2　閾値64の画像
 
 　輝度が64以上のピクセルが白く表示され，63以下は黒く表示されている．
@@ -31,13 +34,16 @@
 
 　このように閾値をそれぞれ96，128，192とし，閾値以上を1，その他を0とした画像をそれぞれ以下に示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai3/kadai3-3.png?raw=true)
+
 図3　閾値96の画像
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai3/kadai3-4.png?raw=true)
+
 図4　閾値128の画像
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai3/kadai3-5.png?raw=true)
+
 図5　閾値192の画像
 
 　また，それぞれを再現するコードを以下に示す．

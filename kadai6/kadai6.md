@@ -4,7 +4,8 @@
 
 　原画像として以下のようなグレースケール画像を使用する．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai6/kadai6-1.png?raw=true)
+
 図1　原画像
 
 　この画像は以下のようなコードで再現できる．
@@ -17,7 +18,8 @@
 
 　まず，閾値を中央にした場合の画像と実現させるコードを示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai6/kadai6-2.png?raw=true)
+
 図2　閾値128の二値化画像
 
 	//ここからコード//
@@ -27,7 +29,8 @@
 
 　次に，ディザ法によって二値化した画像と実現させるコードを示す．
 
-!
+![原画像](https://github.com/suraimu01/gazou_report/blob/master/kadai6/kadai6-3.png?raw=true)
+
 図3　ディザ法による二値化画像
 
 	//ここからコード//
