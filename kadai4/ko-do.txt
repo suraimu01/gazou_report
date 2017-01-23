@@ -1,0 +1,9 @@
+ORG=imread('original.jpg'); 
+	ORG = rgb2gray(ORG); colormap(gray); 
+	imagesc(ORG); colorbar; axis image;
+
+
+IMG = histeq(ORG,256);
+>> imhist(IMG);
+>>  imhist(ORG);
+>> figure,imhist(IMG);

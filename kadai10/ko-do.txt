@@ -1,0 +1,10 @@
+ORG=imread('original.jpg'); 
+	ORG = rgb2gray(ORG); colormap(gray); 
+	imagesc(ORG); colorbar; axis image;
+>> IMG = edge(ORG,'prewitt'); 
+>> imagesc(IMG); colormap(gray); colorbar; axis image;
+>> IMG = edge(ORG,'sobel');
+>> imagesc(IMG); colormap(gray); colorbar; axis image;
+>> IMG = edge(ORG,'canny'); 
+>> imagesc(IMG); colormap(gray); colorbar; axis image;
+>> 
